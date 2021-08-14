@@ -7,8 +7,14 @@
     <x>0</x>
     <y>0</y>
     <width>1058</width>
-    <height>867</height>
+    <height>968</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -17,263 +23,538 @@
    <widget class="QWidget" name="gridLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>80</y>
-      <width>431</width>
-      <height>611</height>
+      <x>30</x>
+      <y>20</y>
+      <width>511</width>
+      <height>1062</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="gridLayout">
-     <item row="1" column="0">
-      <widget class="QPushButton" name="pushButton_7">
+    <layout class="QGridLayout" name="List">
+     <property name="spacing">
+      <number>20</number>
+     </property>
+     <item row="6" column="0">
+      <widget class="QPushButton" name="Phone7">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
        <property name="text">
-        <string>Phone 2</string>
+        <string>Phone 7</string>
        </property>
       </widget>
      </item>
-     <item row="0" column="4">
-      <widget class="QPushButton" name="pushButton_23">
-       <property name="text">
-        <string>Delivery 1</string>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="Delivery5">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
        </property>
-      </widget>
-     </item>
-     <item row="2" column="2">
-      <widget class="QPushButton" name="pushButton_16">
-       <property name="text">
-        <string>Walk-in 3</string>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
        </property>
-      </widget>
-     </item>
-     <item row="6" column="4">
-      <widget class="QPushButton" name="pushButton_29">
        <property name="text">
-        <string>Delivery 7</string>
-       </property>
-      </widget>
-     </item>
-     <item row="7" column="4">
-      <widget class="QPushButton" name="pushButton_30">
-       <property name="text">
-        <string>Delivery 8</string>
+        <string>Delivery 5</string>
        </property>
       </widget>
      </item>
      <item row="5" column="0">
-      <widget class="QPushButton" name="pushButton_10">
+      <widget class="QPushButton" name="Phone6">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
        <property name="text">
         <string>Phone 6</string>
        </property>
       </widget>
      </item>
      <item row="6" column="2">
-      <widget class="QPushButton" name="pushButton_19">
-       <property name="text">
-        <string>Walk-in 7</string>
-       </property>
-      </widget>
-     </item>
-     <item row="8" column="4">
-      <widget class="QPushButton" name="pushButton_31">
-       <property name="text">
-        <string>Delivery 9</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="4">
-      <widget class="QPushButton" name="pushButton_26">
-       <property name="text">
-        <string>Delivery 4</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1" rowspan="3">
-      <spacer name="horizontalSpacer">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
+      <widget class="QPushButton" name="Delivery7">
+       <property name="minimumSize">
         <size>
-         <width>40</width>
-         <height>20</height>
+         <width>0</width>
+         <height>100</height>
         </size>
        </property>
-      </spacer>
-     </item>
-     <item row="4" column="4">
-      <widget class="QPushButton" name="pushButton_27">
-       <property name="text">
-        <string>Delivery 5</string>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
        </property>
-      </widget>
-     </item>
-     <item row="5" column="2">
-      <widget class="QPushButton" name="pushButton_18">
        <property name="text">
-        <string>Walk-in 6</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="2">
-      <widget class="QPushButton" name="pushButton_13">
-       <property name="text">
-        <string>Walk-in 5</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="4">
-      <widget class="QPushButton" name="pushButton_28">
-       <property name="text">
-        <string>Delivery 6</string>
-       </property>
-      </widget>
-     </item>
-     <item row="8" column="2">
-      <widget class="QPushButton" name="pushButton_22">
-       <property name="text">
-        <string>Walk-in 9</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="0">
-      <widget class="QPushButton" name="pushButton_5">
-       <property name="text">
-        <string>Phone 1</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="2">
-      <widget class="QPushButton" name="pushButton_17">
-       <property name="text">
-        <string>Walk-in 4</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QPushButton" name="pushButton_14">
-       <property name="text">
-        <string>Phone 4</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="0">
-      <widget class="QPushButton" name="pushButton_9">
-       <property name="text">
-        <string>Phone 5</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="QPushButton" name="pushButton_15">
-       <property name="text">
-        <string>Phone 3</string>
-       </property>
-      </widget>
-     </item>
-     <item row="7" column="2">
-      <widget class="QPushButton" name="pushButton_20">
-       <property name="text">
-        <string>Walk-in 8</string>
+        <string>Delivery 7</string>
        </property>
       </widget>
      </item>
      <item row="1" column="2">
-      <widget class="QPushButton" name="pushButton_12">
-       <property name="text">
-        <string>Walk-in 2</string>
+      <widget class="QPushButton" name="Delivery2">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
        </property>
-      </widget>
-     </item>
-     <item row="7" column="0">
-      <widget class="QPushButton" name="pushButton_6">
-       <property name="text">
-        <string>Phone 8</string>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
        </property>
-      </widget>
-     </item>
-     <item row="2" column="4">
-      <widget class="QPushButton" name="pushButton_25">
-       <property name="text">
-        <string>Delivery 3</string>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="0">
-      <widget class="QPushButton" name="pushButton_8">
-       <property name="text">
-        <string>Phone 7</string>
-       </property>
-      </widget>
-     </item>
-     <item row="8" column="0">
-      <widget class="QPushButton" name="pushButton_21">
-       <property name="text">
-        <string>Phone 9</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="4">
-      <widget class="QPushButton" name="pushButton_24">
        <property name="text">
         <string>Delivery 2</string>
        </property>
       </widget>
      </item>
-     <item row="0" column="2">
-      <widget class="QPushButton" name="pushButton_11">
+     <item row="7" column="0">
+      <widget class="QPushButton" name="Phone8">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Phone 8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="Walkin1">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
        <property name="text">
         <string>Walk-in 1</string>
        </property>
       </widget>
      </item>
-     <item row="0" column="3" rowspan="2">
-      <spacer name="horizontalSpacer_2">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
+     <item row="3" column="1">
+      <widget class="QPushButton" name="Walkin4">
+       <property name="minimumSize">
         <size>
-         <width>40</width>
-         <height>20</height>
+         <width>0</width>
+         <height>100</height>
         </size>
        </property>
-      </spacer>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Walk-in 4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="Walkin5">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Walk-in 5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="Phone2">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 15pt &quot;Cafe24 Ssurround air&quot;;
+color: rgb(255, 255, 255);
+border-image: url(:/image/deb3cf.png);</string>
+       </property>
+       <property name="text">
+        <string>Phone 2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="Delivery4">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Delivery 4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="Phone4">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 15pt &quot;Cafe24 Ssurround air&quot;;
+color: rgb(157, 157, 157);
+border-image: url(:/image/fadcda.png);</string>
+       </property>
+       <property name="text">
+        <string>Phone 4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="Walkin2">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Walk-in 2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="Delivery1">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Delivery 1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="Walkin3">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Walk-in 3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="Delivery8">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Delivery 8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="Walkin6">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Walk-in 6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="Delivery3">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Delivery 3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QPushButton" name="Phone9">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Phone 9</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="Delivery6">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Delivery 6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="Phone1">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>80</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 15pt &quot;Cafe24 Ssurround air&quot;;
+color: rgb(255, 255, 255);
+border-image: url(:/image/b57fb3.png);</string>
+       </property>
+       <property name="text">
+        <string>Phone 1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QPushButton" name="Walkin9">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Walk-in 9</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="Walkin7">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Walk-in 7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QPushButton" name="Delivery9">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Delivery 9</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="Phone3">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 15pt &quot;Cafe24 Ssurround air&quot;;
+color: rgb(255, 255, 255);
+border-image: url(:/image/eeb8b8.png);</string>
+       </property>
+       <property name="text">
+        <string>Phone 3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPushButton" name="Walkin8">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Walk-in 8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="Phone5">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 15pt &quot;Cafe24 Ssurround air&quot;;
+color: rgb(115, 115, 115);
+border-image: url(:/image/sqw.png);</string>
+       </property>
+       <property name="text">
+        <string>Phone 5</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
    <widget class="QWidget" name="gridLayoutWidget_2">
     <property name="geometry">
      <rect>
-      <x>570</x>
-      <y>40</y>
-      <width>281</width>
-      <height>231</height>
+      <x>620</x>
+      <y>50</y>
+      <width>271</width>
+      <height>251</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="gridLayout_2">
+    <layout class="QGridLayout" name="Table">
+     <property name="spacing">
+      <number>20</number>
+     </property>
      <item row="0" column="0">
-      <widget class="QPushButton" name="pushButton">
+      <widget class="QPushButton" name="Table1">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
        <property name="text">
         <string>Table 1</string>
        </property>
       </widget>
      </item>
      <item row="1" column="0">
-      <widget class="QPushButton" name="pushButton_3">
+      <widget class="QPushButton" name="Table2">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
        <property name="text">
         <string>Table 2</string>
        </property>
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="Table3">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
        <property name="text">
         <string>Table 3</string>
        </property>
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QPushButton" name="pushButton_4">
+      <widget class="QPushButton" name="Table4">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
        <property name="text">
         <string>Table 4</string>
        </property>
@@ -284,54 +565,99 @@
    <widget class="QWidget" name="gridLayoutWidget_3">
     <property name="geometry">
      <rect>
-      <x>570</x>
-      <y>460</y>
+      <x>620</x>
+      <y>510</y>
       <width>301</width>
-      <height>181</height>
+      <height>222</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="gridLayout_3">
+    <layout class="QGridLayout" name="menu">
+     <property name="spacing">
+      <number>20</number>
+     </property>
      <item row="1" column="0">
-      <widget class="QPushButton" name="pushButton_33">
+      <widget class="QPushButton" name="SaleSummary">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
        <property name="text">
-        <string>PushButton</string>
+        <string>Sale Summary</string>
        </property>
       </widget>
      </item>
      <item row="0" column="0">
       <widget class="QPushButton" name="pushButton_32">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
        <property name="text">
         <string>PushButton</string>
        </property>
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QPushButton" name="pushButton_34">
+      <widget class="QPushButton" name="PrintBill">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;</string>
+       </property>
        <property name="text">
-        <string>PushButton</string>
+        <string>Print Bill</string>
        </property>
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QPushButton" name="pushButton_35">
+      <widget class="QPushButton" name="SendOrder">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 12pt &quot;Cafe24 Ssurround air&quot;;
+color: rgb(85, 0, 127);
+border-image: url(:/image/c9cbe0.png);</string>
+       </property>
        <property name="text">
-        <string>PushButton</string>
+        <string>Send Order</string>
        </property>
       </widget>
      </item>
     </layout>
    </widget>
-   <widget class="QToolButton" name="toolButton">
+   <widget class="QToolButton" name="Setting">
     <property name="geometry">
      <rect>
-      <x>900</x>
-      <y>630</y>
-      <width>37</width>
-      <height>18</height>
+      <x>930</x>
+      <y>690</y>
+      <width>61</width>
+      <height>61</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 9pt &quot;Cafe24 Ssurround air&quot;;
+border-image: url(:/image/icons8-settings-100.png);</string>
+    </property>
     <property name="text">
-     <string>...</string>
+     <string/>
     </property>
    </widget>
   </widget>
@@ -344,9 +670,17 @@
      <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>???</string>
+    </property>
+   </widget>
+   <addaction name="menu_2"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="font,image.qrc"/>
+ </resources>
  <connections/>
 </ui>

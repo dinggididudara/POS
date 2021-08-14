@@ -1,0 +1,32 @@
+<RCC>
+  <qresource prefix="image">
+    <file>buttonbrowngreen.png</file>
+    <file>square-shadow.png</file>
+    <file>dadafc.png</file>
+    <file>c3e2dd.png</file>
+    <file>83b1c9.png</file>
+    <file>6eceda.png</file>
+    <file>aeddef.png</file>
+    <file>b57fb3.png</file>
+    <file>deb3cf.png</file>
+    <file>c9cbe0.png</file>
+    <file>eeb8b8.png</file>
+    <file>fadcda.png</file>
+    <file>909fa6.png</file>
+    <file>d1dfe8.png</file>
+    <file>edfef0.png</file>
+    <file>917b56.png</file>
+    <file>squp.png</file>
+    <file>squareg.png</file>
+    <file>sqg.png</file>
+    <file>sqw.png</file>
+    <file>sqpp.png</file>
+    <file>d18063.png</file>
+    <file>buttongreyyellow.png</file>
+    <file>icons8-settings-100.png</file>
+    <file>phone.png</file>
+  </qresource>
+  <qresource prefix="font">
+    <file>cafesurroundair.ttf</file>
+  </qresource>
+</RCC>
