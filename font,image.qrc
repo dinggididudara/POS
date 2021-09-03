@@ -1,32 +1,30 @@
 <RCC>
   <qresource prefix="image">
-    <file>buttonbrowngreen.png</file>
-    <file>square-shadow.png</file>
-    <file>dadafc.png</file>
-    <file>c3e2dd.png</file>
-    <file>83b1c9.png</file>
-    <file>6eceda.png</file>
-    <file>aeddef.png</file>
-    <file>b57fb3.png</file>
-    <file>deb3cf.png</file>
-    <file>c9cbe0.png</file>
-    <file>eeb8b8.png</file>
-    <file>fadcda.png</file>
-    <file>909fa6.png</file>
-    <file>d1dfe8.png</file>
-    <file>edfef0.png</file>
-    <file>917b56.png</file>
-    <file>squp.png</file>
-    <file>squareg.png</file>
-    <file>sqg.png</file>
-    <file>sqw.png</file>
-    <file>sqpp.png</file>
-    <file>d18063.png</file>
-    <file>buttongreyyellow.png</file>
-    <file>icons8-settings-100.png</file>
-    <file>phone.png</file>
+    <file>Image/6eceda.png</file>
+    <file>Image/83b1c9.png</file>
+    <file>Image/909fa6.png</file>
+    <file>Image/917b56.png</file>
+    <file>Image/aeddef.png</file>
+    <file>Image/b57fb3.png</file>
+    <file>Image/buttonbrowngreen.png</file>
+    <file>Image/buttongreyyellow.png</file>
+    <file>Image/c3e2dd.png</file>
+    <file>Image/c9cbe0.png</file>
+    <file>Image/d1dfe8.png</file>
+    <file>Image/d18063.png</file>
+    <file>Image/dadafc.png</file>
+    <file>Image/deb3cf.png</file>
+    <file>Image/edfef0.png</file>
+    <file>Image/eeb8b8.png</file>
+    <file>Image/fadcda.png</file>
+    <file>Image/icons8-settings-100.png</file>
+    <file>Image/phone.png</file>
+    <file>Image/sqg.png</file>
+    <file>Image/sqpp.png</file>
+    <file>Image/squareg.png</file>
+    <file>Image/square-shadow.png</file>
+    <file>Image/squp.png</file>
+    <file>Image/sqw.png</file>
   </qresource>
-  <qresource prefix="font">
-    <file>cafesurroundair.ttf</file>
-  </qresource>
+  <qresource prefix="font"/>
 </RCC>
